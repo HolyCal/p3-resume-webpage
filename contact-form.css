@@ -1,0 +1,84 @@
+body {
+     margin: 0;
+     padding: 0;
+     text-align: center;
+     background-size: cover;
+     background-position: center;
+     font-family: "Josefin Sans", sans-serif;
+}
+ .contact-title {
+     margin-top: 100px;
+     color: CornflowerBlue;
+     transistion: all 4s ease-in-out;
+}
+ .contact-title h1 {
+     font-size: 32px;
+     line-height: 10px;
+     font-weight: bold;
+     font-size: 35px;
+     text-decoration: underline orange;
+     border-radius: 10px;
+     text-align: center;
+}
+ .contact-title h2 {
+     font-size: 16px;
+     animation: none;
+     color: lightslategray;
+     font-size: 20px;
+     margin: auto;
+}
+ form {
+     margin-top: 50px;
+     transistion: all 4s ease-in-out;
+}
+ .form-control {
+     width: 600px;
+     background: transparent;
+     border: none;
+     outline: none;
+     border-bottom: 2px solid orange;
+     font-size: 18px;
+     color: cornflowerblue;
+     margin-bottom: 16px;
+}
+ .form-control:hover {
+     background: rgba(0,0,0,0.3);
+}
+ input {
+     height: 45px;
+}
+ form .submit{
+     background-color: #3271e7;
+     border-radius: 100px;
+     border-color: transparent;
+     color: #f0f2f4;
+     font-size: 20px;
+     font-weight: bold;
+     letter-spacing: 3px;
+     height: 50px;
+     margin-top: 20px;
+     transform: scale(1);
+     transition: 400ms;
+}
+ form .submit:hover {
+     background-color: #1858cd;
+     cursor: pointer;
+     transform: scale(1.2);
+}
+ form .submit:active {
+     animation: send 1.5s linear 1;
+}
+ @keyframes send {
+     0% {
+         transform: translateX(0px);
+    }
+     10% {
+         transform: translateX(-100px);
+    }
+     50% {
+         transform: translateX(500px);
+    }
+     100% {
+         transform: translateY(0px);
+    }
+}
