@@ -2,8 +2,7 @@ body {
      margin: 0;
      padding: 0;
      text-align: center;
-     background-size: cover;
-     background-position: center;
+     background-colour: white; 
      font-family: "Josefin Sans", sans-serif;
 }
  .contact-title {
